@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    background: #ffdd33;
+}
+
+.header {
+    background: #ffffff;
+    border: 1px solid red;
+}
+
+.header__nav-list {
+    list-style: none;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.button__connect {
+    border-style: none;
+}
+
+.button__connect:hover {
+    background-color: #f0eded;
+}
+
+.button__entry {
+    background-color: #fffdfb;
+}
+
+.button__entry:hover {
+    background-color: #f0eded;
+}
+
+.button__registr {
+    background-color: #425cf8;
+    color: white;
+}
+
+.button__registr:hover {
+    background-color: #3a52db;
+    color: white;
+}
+
+main {
+    background: #fbf8f1;
+}
+
