@@ -8,7 +8,6 @@ body {
 
 .header {
     background: #ffffff;
-    border: 1px solid red;
 }
 
 .header__nav-list {
@@ -55,4 +54,13 @@ body {
 
 main {
     background: #f3f3f1;
+}
+
+.form__free-registr {
+    background-color: #425cf8;
+    color: white;
+}
+
+.form__free-registr:hover {
+    background-color: #3a52db;
 }
