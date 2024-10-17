@@ -1,17 +1,48 @@
 body {
     margin: 0;
+    background-color: #f3f3f1;
 }
 
 .banner {
     background: #ffdd33;
+    height: 60px;
+    font-size: 16px;
+}
+
+.banner__button {
+    background: #1b1b1b;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 152px;
+    height: 32px;
 }
 
 .header {
     background: #ffffff;
+    width: 1200px;
+    height: 80px;
+    border-radius: 12px;
+    border: 1px solid rgb(212, 211, 211);;
+    display: flex;
+    margin: 20px auto;
 }
 
 .header__nav-list {
     list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.header__nav-item {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+
+.header__nav-item:hover {
+    background-color: #f0eded;
+    border-radius: 4px;
 }
 
 .header__nav-link {
@@ -28,6 +59,8 @@ body {
 
 .button__connect {
     border-style: none;
+    width: 240px;
+    height: 40px;
 }
 
 .button__connect:hover {
@@ -36,6 +69,8 @@ body {
 
 .button__entry {
     background-color: #fffdfb;
+    width: 63px;
+    height: 40px;
 }
 
 .button__entry:hover {
@@ -45,6 +80,8 @@ body {
 .button__registr {
     background-color: #425cf8;
     color: white;
+    width: 127px;
+    height: 40px;
 }
 
 .button__registr:hover {
@@ -53,7 +90,6 @@ body {
 }
 
 main {
-    background: #f3f3f1;
 }
 
 .form__free-registr {
