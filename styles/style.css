@@ -7,11 +7,19 @@ body {
     background: #ffdd33;
     height: 60px;
     font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__container {
+    text-align: center;
 }
 
 .banner__title {
     font-weight: 600;
 }
+
 
 .banner__button {
     background: #1b1b1b;
@@ -34,9 +42,15 @@ body {
     margin: 20px auto;
 }
 
+.header__logo {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
 .header__nav-list {
     list-style: none;
-    display: flex;
+    display: flex;    
     gap: 10px;
 }
 
@@ -44,6 +58,7 @@ body {
     width: 100px;
     height: 40px;
     text-align: center;
+
 }
 
 .header__nav-item:hover {
@@ -54,6 +69,15 @@ body {
 .header__nav-link {
     text-decoration: none;
     color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+.header__actions {
+    display: flex;
+    align-items: center;
 }
 
 .button {
@@ -104,13 +128,15 @@ main {
 }
 
 .welcome__section-main {
-    width: 600px;
+    width: 790px;
     margin: auto;
     text-align: center;
 }
 
 .welcome__section-title {
     font-size: 56px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: -1px;
 }
 
 .welcome__section-description {
@@ -126,6 +152,7 @@ main {
 
 .welcome__section-form {
     width: 544px;
+    margin: 0 auto;
 }
 
 .form__free-registr {
@@ -142,6 +169,12 @@ main {
     background-color: #3a52db;
 }
 
+.section__preview-img {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid rgb(212, 211, 211); */
+}
+
 .partners__section-description {
     font-size: 32px;
     text-align: center;
@@ -155,7 +188,6 @@ main {
 .partners__section-link {
     width: 1200px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .partners__section-link:hover {
