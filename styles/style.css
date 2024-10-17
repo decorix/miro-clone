@@ -23,6 +23,8 @@ body {
 }
 
 .header {
+    position: sticky;
+    top: 25px;
     background: #ffffff;
     width: 1200px;
     height: 80px;
@@ -138,4 +140,24 @@ main {
 
 .form__free-registr:hover {
     background-color: #3a52db;
+}
+
+.partners__section-description {
+    font-size: 32px;
+    text-align: center;
+}
+
+.partners__section-description > span {
+    display: inline-block;
+    width: 820px;
+}
+
+.partners__section-link {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.partners__section-link:hover {
+    filter: blur(20px);
 }
