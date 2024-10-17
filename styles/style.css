@@ -9,6 +9,10 @@ body {
     font-size: 16px;
 }
 
+.banner__title {
+    font-weight: 600;
+}
+
 .banner__button {
     background: #1b1b1b;
     color: #fff;
@@ -71,6 +75,7 @@ body {
     background-color: #fffdfb;
     width: 63px;
     height: 40px;
+    border: 1px solid rgb(212, 211, 211);
 }
 
 .button__entry:hover {
@@ -82,6 +87,7 @@ body {
     color: white;
     width: 127px;
     height: 40px;
+    border: 1px solid rgb(212, 211, 211);
 }
 
 .button__registr:hover {
@@ -92,9 +98,42 @@ body {
 main {
 }
 
+.welcome__section {
+}
+
+.welcome__section-main {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.welcome__section-title {
+    font-size: 56px;
+}
+
+.welcome__section-description {
+    font-size: 22px;
+}
+
+.welcome__section-input {
+    width: 430px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid rgb(212, 211, 211);
+}
+
+.welcome__section-form {
+    width: 544px;
+}
+
 .form__free-registr {
     background-color: #425cf8;
+    margin-top: 15px;
     color: white;
+    width: 430px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid rgb(212, 211, 211);
 }
 
 .form__free-registr:hover {
