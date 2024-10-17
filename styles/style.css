@@ -24,6 +24,7 @@ body {
     border: 1px solid black;
     border-radius: 4px;
     background-color: white;
+    cursor: pointer;
 }
 
 .button__connect {
@@ -53,6 +54,5 @@ body {
 }
 
 main {
-    background: #fbf8f1;
+    background: #f3f3f1;
 }
-
