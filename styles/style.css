@@ -5,15 +5,18 @@ body {
 
 .banner {
     background: #ffdd33;
-    height: 60px;
-    font-size: 16px;
+    height: 64px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .banner__container {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .banner__title {
@@ -24,7 +27,7 @@ body {
 .banner__button {
     background: #1b1b1b;
     color: #fff;
-    border-radius: 4px;
+    border-radius: 7px;
     cursor: pointer;
     width: 152px;
     height: 32px;
@@ -58,12 +61,13 @@ body {
     width: 100px;
     height: 40px;
     text-align: center;
+    display: flex;
 
 }
 
 .header__nav-item:hover {
     background-color: #f0eded;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .header__nav-link {
@@ -72,17 +76,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 15px;
+    padding: 13px 15px;
 }
 
 .header__actions {
     display: flex;
     align-items: center;
+    gap: 8px;
 }
 
 .button {
     border: 1px solid black;
-    border-radius: 4px;
+    border-radius: 8px;
     background-color: white;
     cursor: pointer;
 }
@@ -90,7 +95,7 @@ body {
 .button__connect {
     border-style: none;
     width: 240px;
-    height: 40px;
+    height: 44px;
 }
 
 .button__connect:hover {
@@ -209,6 +214,34 @@ main {
     display: block;
 }
 
+.partners__section-rowDown {
+    animation: scrollRight 12s linear infinite;
+    overflow: hidden;
+}
+
+.partners__section-rowUp {
+    animation: scrollLeft 12s linear infinite;
+    overflow: hidden;
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(50%);
+    }
+}
+
 
 
 .advice__switch {
@@ -226,6 +259,8 @@ main {
 
 .advice__switch-item span {
     font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .switch__item-child {
@@ -236,6 +271,12 @@ main {
 .switch__item-child:hover {
     opacity: 0.3;
     transform: translateY(-10px);
+}
+
+.switch__item-child p {
+    font-size: 18px;
+    color: grey;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 
