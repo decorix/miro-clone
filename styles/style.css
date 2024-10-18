@@ -192,4 +192,54 @@ main {
 
 .partners__section-link:hover {
     filter: blur(20px);
+    transition: filter 0.5s;
+}
+
+.partners__section-link span {
+    display: none;
+    font-size: 28px;
+    top: 50px;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.partners__section-link:hover span {
+    display: block;
+}
+
+
+
+.advice__switch {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.advice__switch-item {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    border-top: 2px solid rgb(231, 230, 230);
+}
+
+.advice__switch-item span {
+    font-size: 32px;
+}
+
+.switch__item-child {
+    padding: 10px;
+    transition: opacity 0.5s, transform 0.4s;
+}
+
+.switch__item-child:hover {
+    opacity: 0.3;
+    transform: translateY(-10px);
+}
+
+
+.advice__switch-item:active {
+    border-top: 1px solid red;
+    transition: border-top 0.3s linear;
 }
